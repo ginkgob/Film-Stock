@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: 'Libre Franklin', sans-serif;
+    height: 102px;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(33, 39, 61, 0.95);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.icon {
+    position: relative;
+    right: 150px;
+    width: 72px;
+    height: 72px;
+}
+
+.brand {
+    position: relative;
+    right: 450px;
+    color: white;
+
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    z-index: 0;
+}
+
+.moviesBox {
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(221, 8, 8);
+    z-index: 1;
+}
+
+footer {
+    font-family: 'Mukta Vaani', sans-serif;
+    height: 102px;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(106, 117, 155);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.footerInfo {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
