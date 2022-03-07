@@ -13,50 +13,93 @@
 </head>
 <body>
     <nav>
-        <img class ="icon" src="./img/icon.png" alt="popcorn">
-        <h2 class="brand">FilmStock</h2>
+        <a href="#">
+            <img class ="icon" src="./img/icon.png" alt="popcorn">
+        </a>
+        <h1 class="brandName">FilmStock</h1>
         <div class="searchBox">
-            <input class="searchBar" type="text">    
+            <input class="searchBar" type="text" placeholder="Search...">    
         </div>
     </nav>
     <main class="background">
         <section class="moviesBox">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div id="sectionName">
+                <img src="./img/star.svg" alt="star">
+                <h1>My Favourite Movies</h1>
+                <div id="line"></div> <!--Buscar alguna solucion a esto-->
+            </div>
+            <div>
+                <img class="posters" src="./img/jodorowsky_dune.jpg" alt="JodoDune">
+                <p class="movieTitle">Jodorowsky's Dune</p>
+            </div>
+            <div>
+                <img class="posters" src="./img/climax.jpg" alt="climax">
+                <p class="movieTitle">Climax</p>
+            </div>
+            <div>
+                <img class="posters" src="./img/mad_max.jpg" alt="madMax">
+                <p class="movieTitle">Mad Max: Fury Road</p>
+            </div>
+            <div>
+                <img class="posters" src="./img/shiva_baby.jpg" alt="shivaBaby">
+                <p class="movieTitle">Shiva Baby</p>
+            </div>
+            <div>
+                <img class="posters" src="./img/the_hunt.jpg" alt="theHunt">
+                <p class="movieTitle">The Hunt</p>
+            </div>
+            <div>
+                <img class="posters" src="./img/arrival.jpg" alt="arrival">
+                <p class="movieTitle">Arrival</p>
+            </div>
+            <div>
+                <img class="posters" src="./img/incendies.jpg" alt="incendies">
+                <p class="movieTitle">Incendies</p>
+            </div>
+            <div>
+                <img class="posters" src="./img/blade_runner.jpg" alt="bladeRunner">
+                <p class="movieTitle">Blade Runner</p>
+            </div>
         </section>
     </main>
     <footer>
-        <div>
-            <ul id="references">
-                <li>
-                    <a href="#" class="footerInfo">Contact</a>
-                </li>
-                <li>
-                    <a href="#" class="footerInfo">About</a>
-                </li>
-                <li>
-                    <a href="#" class="footerInfo">News</a>
-                </li>
-                <li>
-                    <a href="#" class="footerInfo">Pro</a>
-                </li>
-                <li>
-                    <a href="#" class="footerInfo">Terms</a>
-                </li>
-                <li>
-                    <a href="#" class="footerInfo">Help</a>
-                </li>
-            </ul>
-        </div>
-        <div id="socialMedia">
-
-        </div>
+        <ul class="references">
+            <li>
+                <a href="#" class="footerInfo">Contact</a>
+            </li>
+            <li>
+                <a href="#" class="footerInfo">About</a>
+            </li>
+            <li>
+                <a href="#" class="footerInfo">News</a>
+            </li>
+            <li>
+                <a href="#" class="footerInfo">Pro</a>
+            </li>
+            <li>
+                <a href="#" class="footerInfo">Terms</a>
+            </li>
+            <li>
+                <a href="#" class="footerInfo">Help</a>
+            </li>
+        </ul>
+        <ul class="references">
+            <li>
+                <img class="footerInfo" src="./img/youtube.svg" alt="youtube">
+            </li>
+            <li>
+                <img class="footerInfo" src="./img/twitter.svg" alt="twitter">
+            </li>
+            <li>
+                <img class="footerInfo" src="./img/twitch.svg" alt="twitch">
+            </li>
+            <li>
+                <img class="footerInfo" src="./img/instagram.svg" alt="instagram">
+            </li>
+            <li>
+                <img class="footerInfo" src="./img/facebook.svg" alt="facebook">
+            </li>
+        </ul>
     </footer>
 </body>
 </html>
