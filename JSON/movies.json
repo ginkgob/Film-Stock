@@ -1,0 +1,52 @@
+{
+    "peliculas": [
+        {
+            "id": 1,
+            "name": "Jodorowsky's Dune",
+            "director": "Frank Pavich",
+            "genre": "Documentary"
+        },
+        {
+            "id": 2,
+            "name": "Climax",
+            "director": "Gaspar Noe",
+            "genre": "Thriller"
+        },
+        {
+            "id": 3,
+            "name": "Mad Max: Fury Road",
+            "director": "George Miller",
+            "genre": "Action"
+        },
+        {
+            "id": 4,
+            "name": "Shiva Baby",
+            "director": "Emma Selingman",
+            "genre": "Comedy"
+        },
+        {
+            "id": 5,
+            "name": "The Hunt",
+            "director": "Thomas Vinterberg",
+            "genre": "Drama"
+        },
+        {
+            "id": 6,
+            "name": "Arrival",
+            "director": "Denis Villeneuve",
+            "genre": "Sci-Fi"
+        },
+        {
+            "id": 7,
+            "name": "Incendies",
+            "director": "Denis Villeneuve",
+            "genre": "Drama"
+        },
+        {
+            "id": 8,
+            "name": "Blade Runner",
+            "director": "Ridley Scott",
+            "genre": "Sci-Fi"
+        }
+    ]
+}
