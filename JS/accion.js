@@ -15,7 +15,7 @@ fetchMoviesJSON().then(movies => {
         let img = movies.peliculas[index].image;
         let alt = movies.peliculas[index].altImg;
         let rate=movies.peliculas[index].rating;
-        test.innerHTML += `
+        moviesDisplay.innerHTML += `
             <div class="container">
                   <img class="posters" src="${img}" alt="${alt}">
                   <p class="movieTitle">${title}</p>
@@ -27,3 +27,19 @@ fetchMoviesJSON().then(movies => {
     `
     }
 });
+
+//no hereda a las nietas, las hijas las pilla bien... 
+
+/*<div>
+    <img class="posters" src="${img}" alt="${alt}">
+    <p class="movieTitle">${title}</p>
+  </div> */
+
+/*<div class="container">
+      <img class="posters" src="${img}" alt="${alt}">
+      <p class="movieTitle">${title}</p>
+    <div class="overlay">
+      <img src="./img/star.svg">
+      <p>${rate}</p>
+    </div>
+  </div> */
