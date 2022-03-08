@@ -6,6 +6,7 @@
             "director": "Frank Pavich",
             "genre": "Documentary",
             "image": "../img/jodorowsky_dune.jpg",
+            "imgAlt": "jodoDune",
             "rating":"7.6"
         },
         {
@@ -14,6 +15,7 @@
             "director": "Gaspar Noe",
             "genre": "Thriller",
             "image": "../img/climax.jpg",
+            "imgAlt": "climax",
             "rating":"6.6"
         },
         {
@@ -22,6 +24,7 @@
             "director": "Luis Garcia Berlanga",
             "genre": "Comedy",
             "image": "../img/el_verdugo.jpg",
+            "imgAlt": "elVerdugo",
             "rating":"7.1"
         },
         {
@@ -30,6 +33,7 @@
             "director": "Emma Selingman",
             "genre": "Comedy",
             "image": "../img/shiva_baby.jpg",
+            "imgAlt": "shivaBaby",
             "rating":"6.3"
         },
         {
@@ -38,6 +42,7 @@
             "director": "Thomas Vinterberg",
             "genre": "Drama",
             "image": "../img/the_hunt.jpg",
+            "imgAlt": "theHunt",
             "rating":"7.7"
         },
         {
@@ -46,6 +51,7 @@
             "director": "Denis Villeneuve",
             "genre": "Sci-Fi",
             "image": "../img/arrival.jpg",
+            "imgAlt": "arrival",
             "rating":"7.3"
         },
         {
@@ -54,6 +60,7 @@
             "director": "Denis Villeneuve",
             "genre": "Drama",
             "image": "../img/incendies.jpg",
+            "imgAlt": "incendies",
             "rating":"7.7"
         },
         {
@@ -62,6 +69,7 @@
             "director": "Ridley Scott",
             "genre": "Sci-Fi",
             "image": "../img/blade_runner.jpg",
+            "imgAlt": "bladeRunner",
             "rating":"8.1"
         }
     ]
