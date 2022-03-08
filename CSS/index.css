@@ -30,7 +30,8 @@ nav {
     color: white;
 }
 
-input[type=text] {
+.searchBar[type=text] {
+    width: 200px;
     background-color: white;
     background-image: url(../img/search.svg);
     background-size: 15px;
