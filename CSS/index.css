@@ -31,7 +31,8 @@ nav {
 }
 
 .searchBar[type=text] {
-    width: 200px;
+    width: 225px;
+    height: 25px;
     background-color: white;
     background-image: url(../img/search.svg);
     background-size: 15px;
@@ -41,7 +42,7 @@ nav {
 }
 
 .background {
-    height: 150vh;
+    height: auto;
     width: 100%;
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -50,6 +51,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: content-box;
 }
 
 #sectionName {
@@ -72,7 +74,8 @@ nav {
 }
 
 .moviesBox {
-    height: 875px;
+    margin: 40px;
+    height: auto;
     width: 1000px;
     background-color: white;
     z-index: 1;
