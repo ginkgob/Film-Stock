@@ -22,3 +22,11 @@ fetchMoviesJSON().then(movies => {
     `
     }
 });
+
+
+{/* <div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div> */}
