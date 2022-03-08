@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/*-----NAV-----*/
+
 nav {
     font-family: 'Libre Franklin', sans-serif;
     height: 70px;
@@ -40,6 +42,8 @@ nav {
     background-repeat: no-repeat;
     padding-left: 30px;
 }
+
+/*-----MAIN-----*/
 
 .background {
     height: auto;
@@ -94,12 +98,49 @@ nav {
     width: 200px;
     height: 300px;
     border-radius: 15px;
+    display: block;
 }
 
 .movieTitle {
     font-family: 'Mukta Vaani', sans-serif;
     color: rgb(53,50,50,69);
 }
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;}
+
+/*-----FOOOTER-----*/
 
 footer {
     font-family: 'Mukta Vaani', sans-serif;
