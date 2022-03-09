@@ -16,3 +16,7 @@ The main aim of the exercise was to succesfully create a web dedicated to cinema
 - CSS
 - Javascript
 - JSON
+
+### Future ideas
+
+For the enhancement of this exercise I would create I detailed page of every movie, make a functional search bar and the possibility to add more movies from the interface. 
