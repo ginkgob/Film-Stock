@@ -132,6 +132,21 @@ nav {
     opacity: 1;
 }
 
+#addMovies {
+    background-color: rgba(128, 128, 128, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addIcon {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    background-size: 20%;
+    border-radius: 10px;
+}
+
 /*-----FOOOTER-----*/
 
 footer {

@@ -23,6 +23,11 @@ fetchMoviesJSON().then(movies => {
                     <p>${rate}</p>
                 </div>
             </div>
-    `
+            `
     }
+    moviesDisplay.innerHTML += `
+    <div id="addMovies" class="posters">
+        <img id="addIcon" src="./img/SVG/add.svg">
+    </div>
+    `
 });
