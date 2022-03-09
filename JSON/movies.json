@@ -79,6 +79,14 @@
       "genre": "Drama",
       "image": "https://pics.filmaffinity.com/la_grande_bellezza-366210175-large.jpg",
       "rating": "7.4"
+    },
+    {
+      "id": 10,
+      "name": "È Stata la Mano di Dio",
+      "director": "Paolo Sorrentino",
+      "genre": "Drama",
+      "image": "https://pics.filmaffinity.com/e_stata_la_mano_di_dio-794400915-large.jpg",
+      "rating": "7.2"
     }
   ]
 }
