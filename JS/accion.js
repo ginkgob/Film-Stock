@@ -12,7 +12,7 @@ fetchMoviesJSON().then(movies => {
         //console.log(movies.peliculas[index]);
         let title = movies.peliculas[index].name;
         let img = movies.peliculas[index].image;
-        let alt = movies.peliculas[index].altImg;
+        let alt = movies.peliculas[index].imgAlt;
         let rate=movies.peliculas[index].rating;
         moviesDisplay.innerHTML += `
             <div class="container">
@@ -27,7 +27,7 @@ fetchMoviesJSON().then(movies => {
     }
     moviesDisplay.innerHTML += `
     <div id="addMovies" class="posters">
-        <img id="addIcon" src="./img/SVG/add.svg">
+        <img id="addIcon" src="./img/SVG/plusIcon.svg">
     </div>
     `
 });

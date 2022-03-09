@@ -78,6 +78,7 @@
       "director": "Paolo Sorrentino",
       "genre": "Drama",
       "image": "https://pics.filmaffinity.com/la_grande_bellezza-366210175-large.jpg",
+      "imgAlt": "laGrandeBellezza",
       "rating": "7.4"
     },
     {
@@ -86,6 +87,7 @@
       "director": "Paolo Sorrentino",
       "genre": "Drama",
       "image": "https://pics.filmaffinity.com/e_stata_la_mano_di_dio-794400915-large.jpg",
+      "imgAlt": "eStatalaManodiDio",
       "rating": "7.2"
     }
   ]
