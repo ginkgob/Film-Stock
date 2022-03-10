@@ -1,5 +1,5 @@
 
-const requestURL = '../movies.json';
+const requestURL = "https://ginkgob.github.io/Film-Stock/";
 
 async function fetchMoviesJSON(){
     const response = await fetch(requestURL);
