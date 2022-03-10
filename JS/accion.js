@@ -33,16 +33,5 @@ fetchMoviesJSON().then(movies => {
         `
     });
 
-function displayPopup () {
-    let popup = document.getElementById('popup-wrapper');
-    popup.style.display = 'block';
-};
-
-function closePopup (){
-    let popup = document.getElementById('popup-wrapper');
-    popup.style.display = 'none';
-};
-
-
 
 

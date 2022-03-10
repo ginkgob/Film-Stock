@@ -158,39 +158,6 @@ nav {
     to {bottom: 15px;}
 }
 
-#popup-wrapper {
-    display: none;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-#popup {
-    position: relative;
-    top: 100px;
-    left: 260px;
-    text-align: center;
-    width: 1000px;
-    height: 500px;
-    background: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 15px;
-}
-
-#close {
-    font-size: 20px;
-    position: relative;
-    top: 180px;
-    left: 100px;
-    cursor: pointer;
-    z-index: 1;
-
-}
-
 /*-----FOOOTER-----*/
 
 footer {
