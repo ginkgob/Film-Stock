@@ -27,11 +27,26 @@ fetchMoviesJSON().then(movies => {
                     `
                 }
     moviesDisplay.innerHTML += `
-    <div id="addMovies" class="posters">
+    <div id="addMovies" class="posters" onclick="displayPopup()">
         <img id="addIcon" src="./img/SVG/plusIcon.svg">
     </div>
         `
     });
+
+//----------MOVIE POPUP INFO----------
+
+
+function displayPopup(){
+    let fullPopup = document.getElementById('popup-wrapper');
+    fullPopup.style.display = 'block';
+};
+
+function closePopup(){
+    let close = document.getElementById('close')
+    fullPopup.style.display = 'none';
+};
+
+//----------TOP ARROW BUTTON----------
 
 window.onscroll = function() {displayTopButton()};
 let topButton = document.getElementById('topbtn');

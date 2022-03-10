@@ -45,25 +45,6 @@ nav {
 
 /*-----MAIN-----*/
 
-#arrow {
-    width: 40px;
-    height: 40px;
-}
-
-#topbtn {
-    height: 50px;
-    width: 45px;
-    display: none; 
-    position: fixed;
-    bottom: 50px; 
-    right: 50px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color: rgb(255, 255, 255); 
-    border-radius: 100%; 
-    padding: 3px;
-}
 
 .background {
     height: auto;
@@ -152,6 +133,27 @@ nav {
     opacity: 1;
 }
 
+#popup-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 99;
+}
+
+#popup {
+    position: relative;
+    top: 100px;
+    left: 260px;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+
 #addMovies {
     border-color: black;
     background-color: rgb(241, 246, 248);
@@ -176,6 +178,26 @@ nav {
 @keyframes up {
     from {bottom: 0px;}
     to {bottom: 15px;}
+}
+
+#arrow {
+    width: 40px;
+    height: 40px;
+}
+
+#topbtn {
+    height: 50px;
+    width: 45px;
+    display: none; 
+    position: fixed;
+    bottom: 50px; 
+    right: 50px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 100%; 
+    padding: 3px;
 }
 
 /*-----FOOOTER-----*/
