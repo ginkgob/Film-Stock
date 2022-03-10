@@ -45,6 +45,26 @@ nav {
 
 /*-----MAIN-----*/
 
+#arrow {
+    width: 40px;
+    height: 40px;
+}
+
+#topbtn {
+    height: 50px;
+    width: 45px;
+    display: none; 
+    position: fixed;
+    bottom: 50px; 
+    right: 50px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 100%; 
+    padding: 3px;
+}
+
 .background {
     height: auto;
     width: 100%;

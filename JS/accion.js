@@ -33,5 +33,20 @@ fetchMoviesJSON().then(movies => {
         `
     });
 
+window.onscroll = function() {displayTopButton()};
+let topButton = document.getElementById('topbtn');
+    
+function displayTopButton () {
+    if (document.documentElement.scrollTop > 20) {
+        topButton.style.display = 'block';
+    }
+    if (document.documentElement.scrollTop <= 20) {
+        topButton.style.display = 'none';
+    }
+}
+
+topButton.addEventListener('click', () => {
+    document.documentElement.scrollTop = 0;
+})
 
 
