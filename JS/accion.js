@@ -1,3 +1,4 @@
+
 const requestURL = '../JSON/movies.json';
 
 async function fetchMoviesJSON(){
@@ -15,19 +16,33 @@ fetchMoviesJSON().then(movies => {
         let alt = movies.peliculas[index].imgAlt;
         let rate=movies.peliculas[index].rating;
         moviesDisplay.innerHTML += `
-            <div class="container">
-                <img class="posters" src="${img}" alt="${alt}">
-                <p class="movieTitle">${title}</p>
-                <div class="overlay">
-                    <img src="./img/SVG/star.svg">
-                    <p>${rate}</p>
-                </div>
+        <div class="container">
+            <img class="posters" src="${img}" alt="${alt}">
+            <p class="movieTitle">${title}</p>
+            <div class="overlay" onclick="displayPopup()">
+                <img src="./img/SVG/star.svg">
+                <p>${rate}</p>
             </div>
-            `
-    }
+        </div>
+                    `
+                }
     moviesDisplay.innerHTML += `
     <div id="addMovies" class="posters">
         <img id="addIcon" src="./img/SVG/plusIcon.svg">
     </div>
-    `
-});
+        `
+    });
+
+function displayPopup () {
+    let popup = document.getElementById('popup-wrapper');
+    popup.style.display = 'block';
+};
+
+function closePopup (){
+    let popup = document.getElementById('popup-wrapper');
+    popup.style.display = 'none';
+};
+
+
+
+
