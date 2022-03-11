@@ -7,7 +7,8 @@
       "genre": "Documentary",
       "image": "../img/jodorowsky_dune.jpg",
       "imgAlt": "jodoDune",
-      "rating": "7.6"
+      "rating": "7.6",
+      "trailer": "https://www.youtube.com/embed/m0cJNR8HEw0"
     },
     {
       "id": 2,

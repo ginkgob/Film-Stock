@@ -156,8 +156,9 @@ nav {
 
 #close {
     position: relative;
-    font-size: 40px;
+    font-size: 20px;
     top: 200px;
+    left: 250px;
     z-index: 99;
 }
 

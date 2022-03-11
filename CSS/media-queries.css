@@ -1,0 +1,239 @@
+@media (min-width: 768px) { /*-----------Under development--------------*/
+    * {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: auto;
+        box-sizing: border-box;
+    }
+    
+    /*-----NAV-----*/
+    
+    nav {
+        font-family: 'Libre Franklin', sans-serif;
+        height: 70px;
+        width: 100%;
+        padding: 20px 100px;
+        background-color: rgba(33, 39, 61, 0.95);
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .icon {
+        position: relative;
+        right: 150px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .brandName {
+        position: relative;
+        right: 350px;
+        color: white;
+    }
+    
+    .searchBar[type=text] {
+        width: 225px;
+        height: 25px;
+        background-color: white;
+        background-image: url(../img/SVG/search.svg);
+        background-size: 15px;
+        background-position: 2px 2px;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+    }
+    
+    /*-----MAIN-----*/
+    
+    
+    .background {
+        height: auto;
+        width: 100%;
+        background-image: url(../img/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: content-box;
+        z-index: -1;
+    }
+    
+    #sectionName {
+        background-color: white;
+        height: 55px;
+        width: 1000px;
+        display: flex;
+        justify-content: flex;
+        align-items: flex-end;
+        gap: 10px;
+        padding-left: 45px;
+    }
+    
+    #line {
+        position: absolute;
+        top: 200px;
+        background-color: black;
+        height: 1.5px;
+        width: 930px;
+    }
+    
+    .moviesBox {
+        margin: 40px;
+        height: auto;
+        width: 1000px;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 50px;
+        gap: 35px;
+        border-radius: 5px;
+        z-index: 0;
+    }
+    
+    .posters {
+        width: 200px;
+        height: 300px;
+        border-radius: 15px;
+        display: block;
+    }
+    
+    .movieTitle {
+        font-family: 'Mukta Vaani', sans-serif;
+        color: rgb(53,50,50,69);
+    }
+    
+    .container {
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #ffffffd8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .container:hover .overlay {
+        opacity: 1;
+    }
+    
+    #popup-wrapper {
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        z-index: 99;
+    }
+    
+    #popup {
+        position: relative;
+        top: 100px;
+        left: 260px;
+        width: 1000px;
+        height: 500px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    #close {
+        position: relative;
+        font-size: 40px;
+        top: 200px;
+        z-index: 99;
+    }
+    
+    #addMovies {
+        border-color: black;
+        background-color: rgb(241, 246, 248);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(13, 14, 13);
+    }
+    
+    #addIcon {
+        position: relative;
+        height: 70px;
+        width: 70px;
+        border-radius: 100%;
+    }
+    
+    #addIcon:hover {
+        animation: up;
+        animation-duration: 2s;
+    }
+    
+    @keyframes up {
+        from {bottom: 0px;}
+        to {bottom: 15px;}
+    }
+    
+    #arrow {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #topbtn {
+        height: 50px;
+        width: 45px;
+        display: none; 
+        position: fixed;
+        bottom: 50px; 
+        right: 50px; 
+        z-index: 99; 
+        border: none; 
+        outline: none; 
+        background-color: rgb(255, 255, 255); 
+        border-radius: 100%; 
+        padding: 3px;
+    }
+    
+    /*-----FOOOTER-----*/
+    
+    footer {
+        font-family: 'Mukta Vaani', sans-serif;
+        height: 102px;
+        width: 100%;
+        padding: 20px 100px;
+        background-color: rgba(106, 117, 155);
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    ul {
+        display: flex;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .footerInfo {
+        display: inline-block;
+        color: white;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+}

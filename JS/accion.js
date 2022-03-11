@@ -26,11 +26,11 @@ fetchMoviesJSON().then(movies => {
         </div>
         `
         }
-    moviesDisplay.innerHTML += `
+moviesDisplay.innerHTML += `
     <div id="addMovies" class="posters" onclick="displayPopup()">
         <img id="addIcon" src="./img/SVG/plusIcon.svg">
     </div>
-        `
+    `
     });
 
 //----------MOVIE POPUP INFO----------
