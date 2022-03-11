@@ -6,12 +6,6 @@ The design of this exercise was made with Figma. Several languages like HTML, CS
 
 The main aim of the exercise was to succesfully create a web dedicated to cinema where movies could be created, read, updated and deleted throung a fake API as Postman. A JSON file was previously created to data exchange. 
 
-**||Webpage is not currently available on gitpages. Clone the repository and execute on local server||**
-
-
-**||This webpage is only available on desktop||**
-
-
 ### Developer
 
 Àlex Vidal Romera
@@ -27,4 +21,8 @@ The main aim of the exercise was to succesfully create a web dedicated to cinema
 
 For the enhancement of this exercise I would create I detailed page of every movie, make a functional search bar and the possibility to add more movies from the interface. 
 
-**¡¡¡Webpage is not currently available on gitpages. Clone the repository and execute on local server!!!**
+**||Webpage is not currently available on gitpages. Clone the repository and execute on local server||**
+
+
+**||This webpage is only available on desktop||**
+
