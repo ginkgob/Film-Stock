@@ -154,6 +154,13 @@ nav {
     border-radius: 15px;
 }
 
+#close {
+    position: relative;
+    font-size: 40px;
+    top: 200px;
+    z-index: 99;
+}
+
 #addMovies {
     border-color: black;
     background-color: rgb(241, 246, 248);

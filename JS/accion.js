@@ -24,8 +24,8 @@ fetchMoviesJSON().then(movies => {
                 <p>${rate}</p>
             </div>
         </div>
-                    `
-                }
+        `
+        }
     moviesDisplay.innerHTML += `
     <div id="addMovies" class="posters" onclick="displayPopup()">
         <img id="addIcon" src="./img/SVG/plusIcon.svg">
@@ -35,14 +35,15 @@ fetchMoviesJSON().then(movies => {
 
 //----------MOVIE POPUP INFO----------
 
-
 function displayPopup(){
     let fullPopup = document.getElementById('popup-wrapper');
     fullPopup.style.display = 'block';
 };
 
+
+let close = document.getElementById('close');
 function closePopup(){
-    let close = document.getElementById('close')
+    let fullPopup = document.getElementById('popup-wrapper');
     fullPopup.style.display = 'none';
 };
 
