@@ -19,7 +19,9 @@ The main aim of the exercise was to succesfully create a web dedicated to cinema
 
 ### Future ideas
 
-For the enhancement of this exercise I would create I detailed page of every movie, make a functional search bar and the possibility to add more movies from the interface. 
+For the enhancement of this exercise I would create I detailed page of every movie, make a functional search bar and the possibility to add more movies from the interface. Also, I would like to link the webpage to a movie API to enhance the user experience as well as to be able to deploy the URL. 
+
+
 
 **||Webpage is not currently available on gitpages. Clone the repository and execute on local server||**
 
