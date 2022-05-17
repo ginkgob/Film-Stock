@@ -23,8 +23,8 @@ For the enhancement of this exercise I would create I detailed page of every mov
 
 
 
-**||Webpage is not currently available on gitpages. Clone the repository and execute on local server||**
+**||||Webpage is not currently available on gitpages. Clone the repository and execute on local server||||**
 
 
-**||This webpage is only available on desktop||**
+**||||This webpage is only available on desktop||||**
 
