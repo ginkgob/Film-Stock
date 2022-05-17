@@ -1,9 +1,9 @@
 # Film Stock
 
-**||||Webpage is not currently available on gitpages. Clone the repository and execute on local server||||**
+**||||Webpage is not currently available on gitpages. Clone the repository and execute on local your server||||**
 
 
-**||||This webpage is only available on desktop||||**
+**||||This webpage is only available for desktop view||||**
 
 Film Stock is a personal exercise to test JSON and the use of a fake API as Postman.
 
